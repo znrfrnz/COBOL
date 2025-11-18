@@ -1,0 +1,12 @@
+1EMP0001   John Michael Smith       Fa00050.0000100.00
+1EMP0002   Sarah Jane Williams      Em00040.0000080.00
+1EMP0003   Robert James Brown       Em00045.0000085.00
+1EMP0004   Maria Teresa Santos      Fa00055.0000110.00
+1EMP0005   David Lee Johnson        Em00038.0000075.00
+2EMP0006   Jennifer Anne Cruz       Fa00060.0000120.00
+2EMP0007   Michael Paul Reyes       Fa00058.0000115.00
+2EMP0008   Elizabeth Marie Garcia   Em00042.0000090.00
+2EMP0009   Christopher John Ramos   Fa00062.0000125.00
+2EMP0010   Patricia Ann Dela Cruz   Em00040.0000085.00
+2EMP0011   Richard Thomas Mendoza   Fa00065.0000130.00
+2EMP0012   Linda Rose Fernandez     Em00038.0000080.00
