@@ -7,7 +7,6 @@
 
 Employee     Employee          Employee        Gross Salary     Net Pay
 No.          Name              Type Name
-X(10)        X(25)             X(10)        P999,999.99   P99,999.99
 EMP0001      John Michael Smith     Faculty            521.19     469.08
 EMP0002      Sarah Jane Williams    Employee           336.99     303.30
 EMP0003      Robert James Brown     Employee           400.89     360.81
@@ -21,7 +20,6 @@ EMP0005      David Lee Johnson      Employee           301.01     270.91
 
 Employee     Employee          Employee        Gross Salary     Net Pay
 No.          Name              Type Name
-X(10)        X(25)             X(10)        P999,999.99   P99,999.99
 EMP0006      Jennifer Anne Cruz     Faculty            745.39     670.86
 EMP0007      Michael Paul Reyes     Faculty            691.41     622.27
 EMP0008      Elizabeth Marie Garc   Employee           396.67     357.01
