@@ -1,9 +1,10 @@
-                 Polytechnic University of the Philippines
+                 Polytechnic University of the Philippines
                                Sta. Mesa, Manila
 
 
                                  Payroll Report
 
+ Department Name: Administration Staff
 
 Employee     Employee          Employee        Gross Salary     Net Pay
 No.          Name              Type Name
@@ -12,11 +13,11 @@ EMP0002      Sarah Jane Williams    Employee         3,200.00   2,880.00
 EMP0003      Robert James Brown     Employee         3,825.00   3,442.50
 EMP0004      Maria Teresa Santos    Faculty          6,050.00   5,445.00
 EMP0005      David Lee Johnson      Employee         2,850.00   2,565.00
-
- Department Name: Administration Staff
  Total no. of Employees:  5
  Total no. of Faculty:  2
  Total Net Pay: P     18,832.50
+
+ Department Name: Academic Staff
 
 Employee     Employee          Employee        Gross Salary     Net Pay
 No.          Name              Type Name
@@ -27,8 +28,6 @@ EMP0009      Christopher John Ram   Faculty          7,750.00   6,587.50
 EMP0010      Patricia Ann Dela Cr   Employee         3,400.00   3,060.00
 EMP0011      Richard Thomas Mendo   Faculty          8,450.00   7,182.50
 EMP0012      Linda Rose Fernandez   Employee         3,040.00   2,736.00
-
- Department Name: Academic Staff
  Total no. of Employees:  7
  Total no. of Faculty:  4
  Total Net Pay: P     35,091.00

@@ -1,0 +1,9 @@
+                    POLYTECHNICUNIVERSITY OF THE PHILIPPINES
+                               PAYROLL REPORT
+      EMPLOYEE                  EMPLOYEE
+       NUMBER                     NAME                     NET
+                                                           PAY
+       1                      Franz                           950.00
+
+
+TOTAL NUMBER OF EMPLOYEES:      1TOTAL ACCUMULATED SALARIES:       950.00

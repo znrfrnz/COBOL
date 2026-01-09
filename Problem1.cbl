@@ -15,11 +15,16 @@
        FD  EMPLOYEE-FILE.
        01  EMPLOYEE-RECORD.
            05 DEPT-CODE                PIC 9.
+           05 FILLER                   PIC X.
            05 EMP-NUMBER               PIC X(10).
+           05 FILLER                   PIC X.
            05 EMP-NAME                 PIC X(25).
+           05 FILLER                   PIC X.
            05 EMP-TYPE-CODE            PIC X(2).
-           05 HOURS-WORKED             PIC 9(5)V99.
-           05 RATE-PER-HOUR            PIC 9(5)V99.
+           05 FILLER                   PIC X.
+           05 HOURS-WORKED-STR         PIC X(8).
+           05 FILLER                   PIC X.
+           05 RATE-PER-HOUR-STR        PIC X(8).
        
        FD  REPORT-FILE.
        01  REPORT-LINE                 PIC X(80).
@@ -31,6 +36,8 @@
        01  WS-DEDUCTION-RATE           PIC 9V99.
        01  WS-DEDUCTION                PIC 9(7)V99.
        01  WS-NET-PAY                  PIC 9(7)V99.
+       01  WS-HOURS                    PIC 9(5)V99.
+       01  WS-RATE                     PIC 9(5)V99.
        
        01  WS-DEPT-EMP-COUNT           PIC 9(4) VALUE 0.
        01  WS-DEPT-FACULTY-COUNT       PIC 9(4) VALUE 0.
@@ -183,7 +190,9 @@
            END-READ.
        
        CALCULATE-PAY.
-           COMPUTE WS-GROSS-SALARY = HOURS-WORKED * RATE-PER-HOUR
+           MOVE FUNCTION NUMVAL(HOURS-WORKED-STR) TO WS-HOURS
+           MOVE FUNCTION NUMVAL(RATE-PER-HOUR-STR) TO WS-RATE
+           COMPUTE WS-GROSS-SALARY = WS-HOURS * WS-RATE
            
            EVALUATE TRUE
                WHEN WS-GROSS-SALARY <= 7000

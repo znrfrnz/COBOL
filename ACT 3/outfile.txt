@@ -1,0 +1,16 @@
+                         China Trust Bank
+                           Makati Avenue
+                            Makati City
+
+
+                          Account's Report
+
+     Account                  Name                     Balance
+     Number
+
+     0000000001     MARK JEZEKIAH NAYRE                45,000.00
+     0000000002     RAINAH CASSANDRA NAYRE             40,000.00
+     0000000003     MARLON JAMES NAYRE                 30,000.00
+
+     Total No. of Records printed:      3
+     Total Accumulated Balance: P      115,000.00
