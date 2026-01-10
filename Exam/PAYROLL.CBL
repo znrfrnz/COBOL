@@ -14,8 +14,7 @@
        01  OUT-REC                    PIC X(80).
 
        WORKING-STORAGE SECTION.
-       
-      * INPUT VARIABLES
+
        01  EMP-NO                     PIC X(5).
        01  EMP-NAME                   PIC X(25).
        01  RATE-HOUR                  PIC 9(3)V99.
@@ -25,7 +24,6 @@
        01  PAGIBIG                    PIC 9(4)V99.
        01  TAX                        PIC 9(4)V99.
 
-      * INPUT BUFFER VARIABLES
        01  IN-RATE                    PIC X(10).
        01  IN-HOURS                   PIC X(10).
        01  IN-GSIS                    PIC X(10).
@@ -33,26 +31,21 @@
        01  IN-PAGIBIG                 PIC X(10).
        01  IN-TAX                     PIC X(10).
 
-      * COMPUTED VARIABLES
        01  GROSS-PAY                  PIC 9(5)V99.
        01  TOT-DED                    PIC 9(5)V99.
        01  NET-PAY                    PIC 9(5)V99.
 
-      * DISPLAY VARIABLES (EDITED PICTURE STRINGS)
        01  D-GROSS                    PIC ZZ,999.99.
        01  D-DED                      PIC ZZ,999.99.
        01  D-NET                      PIC ZZ,999.99.
        01  D-TOT-EMP                  PIC ZZ,ZZ9.
        01  D-TOT-SAL                  PIC Z,ZZZ,999.99.
 
-      * ACCUMULATORS
        01  CTR-EMP                    PIC 9(5) VALUE 0.
        01  ACC-SAL                    PIC 9(7)V99 VALUE 0.
 
-      * CONTROL FLAGS
        01  ANOTHER                    PIC X VALUE 'Y'.
 
-      * REPORT LINES
        01  HDR-1.
            05 FILLER                  PIC X(20) VALUE SPACES.
            05 FILLER                  PIC X(45) VALUE 

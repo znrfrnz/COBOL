@@ -5,8 +5,9 @@
      EMPLOYEE       EMPLOYEE                         NET
       NUMBER          NAME                           PAY
 
-     1              Franz                          2,500.00
-     2              Vincent                        2,300.00
+     1              NAYRE                          6,580.00
+     2              FRANZ                          7,340.00
+     14             VINCENT                        8,300.00
 
-     TOTAL NUMBER OF EMPLOYEES:      2
-     TOTAL ACCUMULATED SALARIES:     4,800.00
+     TOTAL NUMBER OF EMPLOYEES:      3
+     TOTAL ACCUMULATED SALARIES:    22,220.00
