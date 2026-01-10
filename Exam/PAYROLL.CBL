@@ -1,10 +1,6 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID. PAYROLL-SYSTEM.
-       AUTHOR. GITHUB-COPILOT.
-      ******************************************************************
-      * This program computes payroll details for employees and        *
-      * generates a payroll report file based on the activity input.   *
-      ******************************************************************
+       AUTHOR. FRANZ-VINCENT.
 
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
