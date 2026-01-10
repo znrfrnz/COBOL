@@ -5,8 +5,17 @@
      EMPLOYEE       EMPLOYEE                         NET
       NUMBER          NAME                           PAY
 
+<<<<<<< HEAD:Exam/OUTPUT.TXT
      1              franz                              6,000.00
      2              vincent                            2,000.00
 
      TOTAL NUMBER OF EMPLOYEES:      2
      TOTAL ACCUMULATED SALARIES:      8,000.00
+=======
+     1              NAYRE                          6,580.00
+     2              FRANZ                          7,340.00
+     14             VINCENT                        8,300.00
+
+     TOTAL NUMBER OF EMPLOYEES:      3
+     TOTAL ACCUMULATED SALARIES:    22,220.00
+>>>>>>> a2043855e779eb43f7af2f0b733c24226e661c4f:Exam/PAYROLL.TXT
